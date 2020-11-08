@@ -8,7 +8,7 @@
         "ethereal",
         "framework"
     ],
-    "home": "https://github.com/etherio/ethereal-common",
+    "homepage": "https://github.com/etherio/ethereal-common",
     "authors": [
         {
             "name": "SHIN MAUNG",
@@ -32,7 +32,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Ethereal\\Common\\": "src/"
+            "Ethereal\\Common\\": "tests/"
         }
     },
     "scripts": {
