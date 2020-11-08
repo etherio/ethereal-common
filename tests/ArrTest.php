@@ -8,6 +8,7 @@
  * This source file is subject to the MIT license that is bundled
  * with this source code in the file LICENSE.
  */
+
 namespace Ethereal\Common;
 
 use PHPUnit\Framework\TestCase;
@@ -20,7 +21,7 @@ class ArrTest extends TestCase
             'foo' => 'bar',
             'baz' => 1,
             'boo' => ['foo', 'bar', 'baz'],
-            'foe' => true
+            'foe' => true,
         ];
 
         $result = Arr::divide($arr);
